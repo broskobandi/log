@@ -17,9 +17,9 @@ int divide(int a, int b, float *result) {
 int main(void) {
 	LOG("Entering function.");
 	float result = 0.0f;
-	LOG("Calling vidide().");
+	LOG("Calling divide().");
 	if (divide(10, 0, &result)) {
-		LOG("divide() failed.");
+		LOG("divide() failed. Exiting program");
 		return 1;
 	}
 	LOG("Exiting main().");

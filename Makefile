@@ -23,7 +23,7 @@ EXAMPLE_EXE := $(BUILD_DIR)/example
 all:
 
 clean:
-	rm -rf $(BUILD_DIR) $(DOC_DIR) compile_commands.json
+	rm -rf $(BUILD_DIR) $(DOC_DIR) log
 
 install:
 	cp $(INC) $(INC_INSTALL_DIR)
